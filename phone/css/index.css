@@ -1,0 +1,200 @@
+html {
+  font-size: 50px;
+}
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 21.33333px;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 384px) {
+  html {
+    font-size: 25.6px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  html {
+    font-size: 26.66667px;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 27.6px;
+  }
+}
+
+@media screen and (min-width: 424px) {
+  html {
+    font-size: 28.26667px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 540px) {
+  html {
+    font-size: 36px;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  html {
+    font-size: 48px;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 50px;
+  }
+}
+
+body {
+  min-width: 350px;
+  max-width: 15rem;
+  margin: 0 auto;
+  background-color: #f1f1f1;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.box {
+  width: 15rem;
+}
+
+.box .hread {
+  width: 15rem;
+  height: 3.6rem;
+  background-color: #ffdb47;
+}
+
+.box .hread .main {
+  padding: 0px 0.72rem;
+  padding-top: 0.4rem;
+  display: flex;
+}
+
+.box .hread .main a {
+  display: block;
+}
+
+.box .hread .main .left {
+  width: 0.72rem;
+  height: 1.2rem;
+  margin-right: 1.4rem;
+  background: url(../imgs/classify.png) no-repeat;
+  background-size: 0.72rem 1.2rem;
+}
+
+.box .hread .main .center {
+  flex: 1;
+  width: 9rem;
+  height: 1.1rem;
+}
+
+.box .hread .main .center img {
+  width: 9rem;
+  height: 1.1rem;
+}
+
+.box .hread .main .right {
+  width: 0.72rem;
+  height: 1.2rem;
+  background: url(../imgs/log.png) no-repeat;
+  background-size: 0.72rem 1.2rem;
+}
+
+.box .hread .search {
+  margin-top: 0.28rem;
+  width: 15rem;
+  height: 1.76rem;
+  box-sizing: border-box;
+  padding: 0.2rem 0px;
+}
+
+.box .hread .search a {
+  display: flex;
+  width: 14.04rem;
+  border-radius: 1rem;
+  background-color: #fff;
+  color: #666;
+  padding: 0.28rem 0px 0.28rem 1.52rem;
+  font-size: 0.68rem;
+  box-sizing: border-box;
+  margin-left: 0.48rem;
+}
+
+.box .recommend ul {
+  padding-left: 0px;
+  margin: 0px;
+  margin-top: 0.6rem;
+  margin-bottom: 0.8rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box .recommend ul li {
+  flex: 1;
+  display: flex;
+  width: 3rem;
+  height: 2.84rem;
+  text-align: center;
+}
+
+.box .recommend ul li a {
+  color: #444;
+  width: 3rem;
+  height: 2.84rem;
+}
+
+.box .recommend ul li a .channel img {
+  width: 1.76rem;
+  height: 1.76rem;
+}
+
+.box .recommend ul li a .name {
+  font-size: 0.4rem;
+}
+
+.box .novice {
+  display: flex;
+}
+
+.box .novice .big img {
+  width: 7.43064rem;
+  height: 4.68rem;
+}
+
+.box .novice .small {
+  margin-left: 0.08rem;
+}
+
+.box .novice .small img {
+  width: 3.70564rem;
+  height: 4.68rem;
+}
