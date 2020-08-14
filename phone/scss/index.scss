@@ -1,0 +1,127 @@
+//导入common.scss公共的样式文件
+@import "./common.scss";
+
+@function px2rem($px){
+    @return ($px / 50) * 1rem;
+}
+
+body {
+    min-width: 350px;
+    max-width: 15rem;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.box {
+    width: 15rem;
+    .hread {
+        width: 15rem;
+        height: px2rem(180);
+        background-color: rgb(255, 219, 71);
+        .main {
+            padding: 0px px2rem(36);
+            padding-top: px2rem(20);
+            display: flex;
+            a{
+                display: block;
+            }
+            .left {
+                width: px2rem(36);
+                height: px2rem(60);
+                margin-right: px2rem(70);
+                background: url(../imgs/classify.png) no-repeat;
+                background-size: px2rem(36) px2rem(60);
+            }
+            .center {
+                flex: 1;
+                width: px2rem(450);
+                height: px2rem(55);
+                img {
+                    width: px2rem(450);
+                    height: px2rem(55);
+                }
+            }
+            .right {
+                width: px2rem(36);
+                height: px2rem(60);
+                background: url(../imgs/log.png) no-repeat;
+                background-size: px2rem(36) px2rem(60);
+            }
+        }
+        .search {
+            margin-top: px2rem(14);
+            width: 15rem;
+            height: px2rem(88);
+            box-sizing: border-box;
+            padding: px2rem(10) 0px;
+            a {
+                display: flex;
+                width: px2rem(702);
+                border-radius: px2rem(50);
+                background-color: #fff;
+                color: #666;
+                padding: px2rem(14) 0px px2rem(14) px2rem(76);
+                font-size: px2rem(34);
+                box-sizing: border-box;
+                margin-left: px2rem(24);
+            }
+        }
+    }
+    
+    .recommend {
+        ul{
+            padding-left: 0px;
+            margin: 0px;
+            margin-top: px2rem(30);
+            margin-bottom: px2rem(40);
+            display: flex;
+            flex-wrap: wrap;
+            li {
+                flex: 1;
+                display: flex;
+                width: px2rem(150);
+                height: px2rem(142);
+                text-align: center;
+                a {
+                    color: #444;
+                    width: px2rem(150);
+                    height: px2rem(142);
+                    .channel {
+                        img {
+                            width: px2rem(88);
+                            height: px2rem(88);
+                        }
+                    }
+                    .name {
+                        font-size: px2rem(20);
+                    }
+                }
+            }
+        }
+    }
+    
+    .novice {
+        display: flex;
+        .big {
+            img {
+                width: px2rem(371.532);
+                height: px2rem(234);
+            }
+        }
+        .small {
+            margin-left: px2rem(4);
+            img {
+                width: px2rem(185.282);
+                height: px2rem(234);
+            }
+        }
+    }
+}
